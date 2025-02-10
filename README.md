@@ -72,4 +72,32 @@ E --> H
 F --> G
 ```
 
+### site map
+
+```
+├── README.md
+├── app
+│   ├── api
+│   │   ├── events
+│   │   ├── members
+│   │   └── payments
+│   ├── auth
+│   │   ├── login
+│   │   └── register
+│   ├── dashboard
+│   │   ├── admin
+│   │   └── member
+│   └── public
+├── components
+│   ├── forms
+│   ├── shared
+│   └── ui
+├── lib
+│   ├── supabase
+│   ├── types
+│   └── utils
+├── middleware
+└── public
+```
+
 
