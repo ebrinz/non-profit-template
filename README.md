@@ -49,16 +49,19 @@ Scale vertically within same infrastructure
 graph TD
 
 subgraph Client["Frontend Layer"]
+style Client fill:#000000,stroke:#ffffff
 A[Next.js Frontend] --> B[Server Components]
 B --> C[Client Components]
 end
 
 subgraph Vercel["Edge/API Layer"]
+style Vercel fill:#000000,stroke:#ffffff
 D[Edge Functions] --> E[API Routes]
 E --> F[Middleware]
 end
 
 subgraph Data["Database & Auth Layer"]
+style Data fill:#000000,stroke:#ffffff
 G[Auth] --> H[PostgreSQL]
 H --> I[Row Level Security]
 J[Storage] --> H
@@ -70,6 +73,8 @@ A --> D
 D --> G
 E --> H
 F --> G
+
+classDef default fill:#000000,stroke:#ffffff,color:#ffffff
 ```
 
 ### site map
