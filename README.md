@@ -44,7 +44,7 @@ Scale vertically within same infrastructure
 
 
 
-```
+```mermaid
 %%{init: {'theme': 'dark'}}%%
 graph TD
 
